@@ -1,3 +1,5 @@
+package project.Human;
+
 import java.util.Date;
 
 /**
@@ -22,7 +24,7 @@ public class Human {
      * @param name Person's name
      * @param surname Person's surname
      * @param patronymic Person's patronymic
-     * @param sex Human gender
+     * @param sex project.Human.project.Human gender
      * @param date_of_birth Person's date of birth
      */
     public Human(int ID, int pas_series, int pas_number, String name, String surname, String patronymic, String sex, Date date_of_birth) {
@@ -173,7 +175,7 @@ public class Human {
     }
 
     /**
-     * The method allows you to get information about the Human class object
+     * The method allows you to get information about the project.Human.project.Human class object
      * @return String with information about person
      */
     @Override

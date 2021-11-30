@@ -1,3 +1,5 @@
+import project.Human.Human;
+import project.contract.mobile.Mobile_contract;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -57,7 +59,7 @@ class Mobile_contractTest {
     @Test
     void testToStringTest() {
         String str = "ID = 10" +
-                "\nContract number = 12" +
+                "\nproject.contract.Contract number = 12" +
                 "\nStart date = " + new Date(120, 0, 1) +
                 "\nEnd date = " + new Date(121, 6, 1) +
                 "\nOwner: " + owner.toString() +

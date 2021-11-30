@@ -1,5 +1,8 @@
+import project.Human.Human;
+import project.contract.internet.Internet_contract;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import project.repository.Repository;
 
 import java.util.Date;
 
@@ -43,7 +46,7 @@ class RepositoryTest {
         }
         rep.deleteContract(5);
         String result = rep.getContract(5);
-        assertEquals("There is no such contract!", result);
+        assertEquals("There is no such project.contract!", result);
     }
 
     @Test
