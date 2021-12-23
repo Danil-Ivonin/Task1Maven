@@ -111,6 +111,12 @@ public class Repository {
         }
         return str;
     }
+
+    /**
+     * Filters the project.repository according to various criteria
+     * @param p filtering criterion
+     * @return new filtered repository
+     */
     public Repository Filter(Predicate<Contract> p){
         Repository rep = new Repository();
         for (int i = 0; i < counter; i++)

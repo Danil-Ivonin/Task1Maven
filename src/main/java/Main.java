@@ -23,8 +23,8 @@ public class Main {
 
         Mobile_contract contract2 = new Mobile_contract(11, new Date(120, 1, 1), new Date(121, 3, 12), owner, 200, 150, 30);
         rep.addContract(contract2);
-        MyComp myComp = new MyComp();
-        rep.SelectionSort(myComp);
+        Predicate<Contract> p = x -> x.getContract_number()>10;
+        rep = rep.Filter(p);
         System.out.print(rep.toString());
     }
 
