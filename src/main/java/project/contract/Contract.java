@@ -21,8 +21,7 @@ public abstract class Contract {
      * @param end_date project.contract.Contract end date
      * @param owner project.contract.Contract owner
      */
-    public Contract(int ID, int contract_number, Date start_date, Date end_date, Human owner) {
-        this.ID = ID;
+    public Contract(int contract_number, Date start_date, Date end_date, Human owner) {
         this.contract_number = contract_number;
         this.start_date = start_date;
         this.end_date = end_date;

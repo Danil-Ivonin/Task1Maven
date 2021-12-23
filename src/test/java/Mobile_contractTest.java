@@ -14,7 +14,7 @@ class Mobile_contractTest {
 
     @BeforeEach
     void CreateContract() {
-        contract = new Mobile_contract(10, 12, new Date(120, 0, 1), new Date(121, 6, 1), owner, 200, 150, 30);
+        contract = new Mobile_contract(12, new Date(120, 0, 1), new Date(121, 6, 1), owner, 200, 150, 30);
     }
 
     @Test

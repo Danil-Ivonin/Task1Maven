@@ -14,7 +14,7 @@ class TV_contractTest {
 
     @BeforeEach
     void CreateContract() {
-        contract = new TV_contract(10, 12, new Date(120, 0, 1), new Date(121, 6, 1), owner, 200);
+        contract = new TV_contract(12, new Date(120, 0, 1), new Date(121, 6, 1), owner, 200);
     }
 
     @Test

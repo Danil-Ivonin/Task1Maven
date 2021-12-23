@@ -20,8 +20,8 @@ public class TV_contract extends Contract {
      * @param owner project.contract.Contract owner
      * @param number_of_channel Number of channel in project.contract
      */
-    public TV_contract(int ID, int contract_number, Date start_date, Date end_date, Human owner, int number_of_channel) {
-        super(ID, contract_number, start_date, end_date, owner);
+    public TV_contract(int contract_number, Date start_date, Date end_date, Human owner, int number_of_channel) {
+        super(contract_number, start_date, end_date, owner);
         this.number_of_channel = number_of_channel;
     }
 

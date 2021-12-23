@@ -22,8 +22,8 @@ public class Mobile_contract extends Contract {
      * @param sms Sms package in the project.contract
      * @param internet Internet package in the project.contract
      */
-    public Mobile_contract(int ID, int contract_number, Date start_date, Date end_date, Human owner, int minute, int sms, int internet) {
-        super(ID, contract_number, start_date, end_date, owner);
+    public Mobile_contract(int contract_number, Date start_date, Date end_date, Human owner, int minute, int sms, int internet) {
+        super(contract_number, start_date, end_date, owner);
         this.minute = minute;
         this.sms = sms;
         this.internet = internet;

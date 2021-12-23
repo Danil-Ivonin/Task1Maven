@@ -14,7 +14,7 @@ class Internet_contractTest {
 
     @BeforeEach
     void CreateContract() {
-        contract = new Internet_contract(10, 12, new Date(120, 0, 1), new Date(121, 6, 1), owner, 10);
+        contract = new Internet_contract (12, new Date(120, 0, 1), new Date(121, 6, 1), owner, 10);
     }
 
     @Test
